@@ -1,7 +1,7 @@
 # XBMC Media Center language file
-# Addon Name: Skeleton
-# Addon id: script.skeleton
-# Addon Provider: Skeleton
+# Addon Name: OSD Suppressor
+# Addon id: script.osdsuppressor
+# Addon Provider: KODeKarnage
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Addons\n"

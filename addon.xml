@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="script.skeleton"
-       name="Skeleton"
+<addon id="script.osdsuppressor"
+       name="OSD Suppressor"
        version="0.0.1"
-       provider-name="Skeleton">
+       provider-name="KODeKarnage">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-
-<extension point="xbmc.python.script"
-            library="default.py">
-    </extension>
+        <extension point="xbmc.service" library="default.py" start="login"></extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Skeleton</summary>
-        <description lang="en">Skeleton for Kodi addons.</description>
+        <summary lang="en">OSD Suppressor</summary>
+        <description lang="en">Script that runs on startup to alter the OSD skin file so that it disappears after a user-defined number of seconds.</description>
         <language>en</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
