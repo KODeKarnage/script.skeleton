@@ -34,11 +34,6 @@ __addon__        = xbmcaddon.Addon()
 __addonid__      = __addon__.getAddonInfo('id')
 __setting__      = __addon__.getSetting
 
-# get user specified settings
-# find active skin file
-# find right node
-# insert or edit new code
-
 
 def Main():
 
@@ -127,7 +122,7 @@ def Main():
 
 	elif 'IdleTime' in current_text:
 
-		xbmc.log('OSD Suppressor: IdleTime already in DialogSeekBar.xml')
+		xbmc.log('OSD Suppressor: IdleTime(%s) already in DialogSeekBar.xml' % delay)
 
 if __name__ == "__main__":
 	Main()
